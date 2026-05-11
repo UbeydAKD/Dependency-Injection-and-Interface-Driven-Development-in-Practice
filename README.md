@@ -65,7 +65,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.times;
 
-@ExtendWith(MockitoExtension.class) // Mockito framework'ünü dahil ediyoruz
+@ExtendWith(MockitoExtension.class) 
 public class UserManagerTest {
 
     @Mock
